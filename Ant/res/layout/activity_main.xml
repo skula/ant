@@ -2,34 +2,60 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="horizontal"
-    android:background="#ffffff">
- 
-	<ExpandableListView
-		android:id="@+id/lvExp"
-		android:layout_height="fill_parent"
-		android:layout_width="wrap_content"
-		android:groupIndicator="@null"/>
+    android:orientation="horizontal" >
 
-	<LinearLayout
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:orientation="vertical">
-	
-		<!-- ICI: barre du chemin du dossier -->
-		
-		<LinearLayout
-			android:layout_height="wrap_content"
-			android:layout_width="wrap_content"
-			android:orientation="horizontal">
-			
-			<!-- ICI: affichage de la liste (grille) dossiers et fichiers -->
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="6"
+        android:background="#3c3c3c" 
+        android:groupIndicator="@null"/>
 
-			<!-- ICI: barre verticale des combinaisons (alt+f4, switch window, plein ecran ...) -->
-		</LinearLayout>
-		
-		<!-- ICI: barre horizontale des operations sur dossier (couper/copier/coller, ouvrir/lancer, renommer ...) -->
-		
-	</LinearLayout>
- 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <!-- Barre du chemin du dossier -->
+
+        <TextView
+            android:id="@+id/path"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingTop="15px"
+        android:paddingBottom="15px"
+            android:paddingLeft="10px"
+            android:background="#333333"
+            android:text="/home/slown/Telechargements"
+            android:textColor="#53a9ff" />
+
+        <!-- Affichage de la liste (grille) dossiers et fichiers -->
+
+
+        <!-- Barre horizontale des operations sur dossier (couper/copier/coller, ouvrir/lancer, renommer ...) -->
+
+    </LinearLayout>
+
+    <!-- Barre verticale des combinaisons (alt+f4, switch window, plein ecran ...) -->
+
+    <!-- <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>-->
+
 </LinearLayout>
