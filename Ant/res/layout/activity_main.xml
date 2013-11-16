@@ -9,8 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
         android:layout_weight="6"
-        android:background="#3c3c3c" 
-        android:groupIndicator="@null"/>
+        android:background="#3c3c3c"
+        android:groupIndicator="@null" />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -24,38 +24,203 @@
             android:id="@+id/path"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textSize="18dp"
-            android:paddingTop="15px"
-        android:paddingBottom="15px"
-            android:paddingLeft="10px"
             android:background="#333333"
+            android:paddingBottom="15px"
+            android:paddingLeft="10px"
+            android:paddingTop="15px"
             android:text="/home/slown/Telechargements"
-            android:textColor="#53a9ff" />
+            android:textColor="#53a9ff"
+            android:textSize="18dp" 
+            android:layout_weight="1"/>
 
         <!-- Affichage de la liste (grille) dossiers et fichiers -->
 
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="300px" 
+            android:background="#ffffff"
+            android:layout_weight="9"/>
 
         <!-- Barre horizontale des operations sur dossier (couper/copier/coller, ouvrir/lancer, renommer ...) -->
 
+        <HorizontalScrollView
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#333333" 
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fermer" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Retour" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pl.Ecr." />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fermer" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Retour" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pl.Ecr." />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fermer" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Retour" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pl.Ecr." />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fermer" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Retour" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pl.Ecr." />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fermer" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Retour" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pl.Ecr." />
+            </LinearLayout>
+        </HorizontalScrollView>
     </LinearLayout>
 
     <!-- Barre verticale des combinaisons (alt+f4, switch window, plein ecran ...) -->
 
-    <!-- <ScrollView
+    <ScrollView
+        android:id="@+id/scroll"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:layout_weight="1" >
+        android:layout_height="wrap_content"
+        android:background="#333333" >
 
-        <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:orientation="vertical" >
-            </LinearLayout>
-        </RelativeLayout>
-    </ScrollView>-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fermer" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retour" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pl.Ecr." />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fermer" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retour" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pl.Ecr." />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fermer" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retour" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pl.Ecr." />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fermer" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retour" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pl.Ecr." />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fermer" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retour" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pl.Ecr." />
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

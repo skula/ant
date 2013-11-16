@@ -2,12 +2,14 @@ package com.skula.ant;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
+import android.widget.ScrollView;
 import android.widget.Toast;
 
 import com.skula.ant.constants.AntCnst;
@@ -21,6 +23,8 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		//ScrollView sv = (ScrollView) findViewById(R.id.scroll);
 
 		// get the listview
 		expListView = (ExpandableListView) findViewById(R.id.lvExp);
