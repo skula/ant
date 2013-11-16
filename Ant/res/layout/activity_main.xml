@@ -24,22 +24,22 @@
             android:id="@+id/path"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="#333333"
             android:paddingBottom="15px"
             android:paddingLeft="10px"
             android:paddingTop="15px"
             android:text="/home/slown/Telechargements"
             android:textColor="#53a9ff"
-            android:textSize="18dp" 
-            android:layout_weight="1"/>
+            android:textSize="18dp" />
 
         <!-- Affichage de la liste (grille) dossiers et fichiers -->
 
         <ListView
             android:layout_width="fill_parent"
-            android:layout_height="300px" 
-            android:background="#ffffff"
-            android:layout_weight="9"/>
+            android:layout_height="300px"
+            android:layout_weight="9"
+            android:background="#ffffff" />
 
         <!-- Barre horizontale des operations sur dossier (couper/copier/coller, ouvrir/lancer, renommer ...) -->
 
@@ -47,88 +47,133 @@
             android:id="@+id/scroll"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="#333333" 
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:background="#333333" >
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal" >
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Fermer" />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Fermer"
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Retour" />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Retour"
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Pl.Ecr." />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Pl.Ecr."
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Fermer" />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Fermer"
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Retour" />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Retour"
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Pl.Ecr." />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Pl.Ecr."
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Fermer" />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Fermer"
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Retour" />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Retour"
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Pl.Ecr." />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Pl.Ecr."
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Fermer" />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Fermer"
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Retour" />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Retour"
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Pl.Ecr." />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Pl.Ecr."
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Fermer" />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Fermer"
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Retour" />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Retour"
+                    android:textColor="#ffffff" />
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Pl.Ecr." />
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="8px"
+                    android:background="@drawable/btn_grey"
+                    android:text="Pl.Ecr."
+                    android:textColor="#ffffff" />
             </LinearLayout>
         </HorizontalScrollView>
     </LinearLayout>
@@ -139,7 +184,7 @@
         android:id="@+id/scroll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#333333" >
+        android:background="#3c3c3c" >
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -148,78 +193,123 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Fermer" />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Fermer"
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Retour" />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Retour"
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pl.Ecr." />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Pl.Ecr."
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Fermer" />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Fermer"
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Retour" />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Retour"
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pl.Ecr." />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Pl.Ecr."
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Fermer" />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Fermer"
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Retour" />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Retour"
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pl.Ecr." />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Pl.Ecr."
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Fermer" />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Fermer"
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Retour" />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Retour"
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pl.Ecr." />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Pl.Ecr."
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Fermer" />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Fermer"
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Retour" />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Retour"
+                android:textColor="#ffffff" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pl.Ecr." />
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8px"
+                android:background="@drawable/btn_grey"
+                android:text="Pl.Ecr."
+                android:textColor="#ffffff" />
         </LinearLayout>
     </ScrollView>
 
